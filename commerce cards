@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NEKRETNINE.BA</title>
+
+
+
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      
+
+      body{
+      margin: 0;
+      font-family:Nunito Sans;
+       background-image: ;
+      }
+      h3{
+      text-align: center;
+      font-size: 30px;
+      margin: 0;
+      padding-top: 10px;
+      }
+      a{
+      text-decoration: none;
+      color: #b2bec3;
+      }
+      .gallery{
+      display: flex;
+      flex-wrap: wrap;
+      width: 95%;
+      justify-content: center;
+      align-items: center;
+      margin: 50px 0;
+      border: #004d25;
+      }
+      .content{
+      width: 24%;
+      margin: 10px;
+      box-sizing: border-box;
+      float: left;
+      text-align: center;
+      border-radius:10px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      color: #004d25;
+      padding-top: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: .4s;
+      
+      }
+      .content:hover{
+      box-shadow: 0 0 11px rgba(33,33,33,.2);
+      transform: translate(0px, -8px);
+      transition: .6s;
+      }
+      img{
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      }
+      p{
+      text-align: center;
+      color: #b2bec3;
+      padding: 0 8px;
+      }
+      h6{
+      font-size: 26px;
+      text-align: center;
+      color: #222f3e;
+      margin: 0;
+      }
+      ul{
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      }
+      li{
+      padding: 5px;
+      }
+      .fa{
+      color: #ff9f43;
+      font-size: 26px;
+      transition: .4s;
+      }
+      .fa:hover{
+      transform: scale(1.3);
+      transition: .6s;
+      }
+   
+      button{
+      text-align: center;
+      font-size: 15px;
+      color: #fff;
+      width: 100%;
+      padding: 10px;
+      border: #004d25;
+      outline: none;
+      cursor: pointer;
+      margin-top: 5px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      }
+      .buy-1{
+      background-color: #004d25;
+      }
+      .buy-2{
+      background-color: #004d25;
+      }
+      .buy-3{
+      background-color: #004d25;
+      }
+      @media(max-width: 700px){
+      .content{
+      width: 26%;
+      }
+      }
+      @media(max-width: 450px){
+      .content{
+      width: 100%;
+      }
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <div class="gallery">
+      <div class="content">
+        <img src="https://www.versatube.com/media/catalog/product/cache/1/small_image/c17aa26e27ceeeb4e8fd304667bb9ff4/2/0/20x21x12_Frontier_2x3_5OC_FE16x10_BE-Enclosed_Front_10.jpg">
+        <h6>prodaja</h6>
+        <p>Pofalici</p>
+        <h6>12000 KM</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1"><a href="sadrzaj2.html">POGLEDAJ DETALJNO</button></a>
+      </div>
+      <div class="content">
+        <img src="https://cdn.hinative.com/attached_images/281048/7d29d2713b142fb080930d0eb5b04d24be936f62/large.jpg?1525538999">
+        <h6>prodaja</h6>
+        <p>Vogosca</p>
+        <h6>7000 KM</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-2"><a href="sadrzaj2.html">POGLEDAJ DETALJNO</button></a>
+      </div>
+      <div class="content">
+        <img src="https://www.ouinolanguages.com/assets/Italian/vocab/28/images/pic9.jpg">
+        <h6>iznajmljivanje:garaza</h6>
+        <p>Sarajevo</p>
+        <h6>350 KM</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-3"><a href="sadrzaj2.html">POGLEDAJ DETALJNO</button></a>
+      </div>
+    </div>
+  </body>
+
+  
+</body>
+</html>
+
+
+
